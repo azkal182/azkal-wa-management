@@ -197,9 +197,9 @@ const LoginV2 = ({ mode }: { mode: SystemMode }) => {
             </Button>
             <div className='flex justify-center items-center flex-wrap gap-2'>
               <Typography>New on our platform?</Typography>
-              <Typography component={Link} color='primary.main'>
-                Create an account
-              </Typography>
+              <Link href={'/register'}>
+                <Typography color='primary.main'>Create an account</Typography>
+              </Link>
             </div>
             <Divider className='gap-2 text-textPrimary'>or</Divider>
             <div className='flex justify-center items-center gap-1.5'>
